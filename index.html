@@ -11,9 +11,12 @@
     </style>
   </head>
   <body>
-    <div class="jumbotron">
-      <h1> Welcome to my Misadventure in the ELM Stack! </h1>
-      <p> This is where i put my "code." You may call it what you want </p>
-    </div>
+    <div class="elm-app-is-loaded-here"></div>
+    <script ="elm.js"></script>
+    <script>
+      var app = Elm.HomePage.init({
+        node: document.getElementById("elm-app-is-loaded-here")
+      });
+    </script>
   </body>
 </html>
