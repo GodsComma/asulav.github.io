@@ -4,7 +4,7 @@ import { DarkThemeConfigMap } from "themes/darkTheme";
 import { LightThemeConfigMap } from "themes/lightTheme";
 import { NatureThemeConfigMap } from "./natureTheme";
 
-type ThemeTypeProps = 'DARK' | 'LIGHT' | 'NATURE';
+export type ThemeTypeProps = 'DARK' | 'LIGHT' | 'NATURE';
 
 type ThemeProviderProps = {
     themeType: ThemeTypeProps;

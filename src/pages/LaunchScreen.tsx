@@ -1,13 +1,12 @@
 import { Cell } from "atoms";
+import { NUMBER_OF_CELLS } from "constant";
 import { useContext } from "react";
 import TableTemplate from "template/TableTemplate";
 import { ThemeContext } from "themes/ThemeProvider";
 
-const Number_of_Cells = 9;
-
 const LaunchScreen = () => {
     const { theme }  = useContext(ThemeContext);
-    const CELLS = [...Array(Number_of_Cells).keys()];
+    const CELLS = [...Array(NUMBER_OF_CELLS).keys()];
 
     return(
         <div className={`flex justify-center items-center w-screen h-screen ${theme["bg-p-color"]} ${theme["bg-p-fontColor"]}`} >

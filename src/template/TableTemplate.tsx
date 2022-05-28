@@ -4,7 +4,7 @@ type TableTemplateProps = {
 
 const TableTemplate = ({ children }: TableTemplateProps) => {
     return (
-        <div className="grid grid-rows-3 grid-flow-col gap-2">
+        <div className="flex flex-row flex-wrap duration-500">
             {children}
         </div>
     );

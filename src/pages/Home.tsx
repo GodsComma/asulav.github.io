@@ -1,5 +1,3 @@
-import Cell from "atoms/Cell";
-
 const Home = () => {
         
     return (
