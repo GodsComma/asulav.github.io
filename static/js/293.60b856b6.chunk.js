@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[293],{293:function(e,s,n){n.r(s);var t=n(184);s.default=function(){return(0,t.jsx)("div",{className:"p-4 m-2 max-h-fit min-h-screen"})}}}]);
+//# sourceMappingURL=293.60b856b6.chunk.js.map

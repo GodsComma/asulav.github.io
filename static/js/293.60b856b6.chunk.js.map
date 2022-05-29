@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/293.60b856b6.chunk.js","mappings":"oHAUA,UAVa,WAET,OACI,gBAAKA,UAAU","sources":["pages/Home.tsx"],"sourcesContent":["const Home = () => {\n        \n    return (\n        <div className=\"p-4 m-2 max-h-fit min-h-screen\">\n            \n        </div>\n\n    )\n};\n\nexport default Home;"],"names":["className"],"sourceRoot":""}

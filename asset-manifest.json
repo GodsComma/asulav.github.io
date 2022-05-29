@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/asulav.github.io/static/css/main.78c4e0cd.css",
-    "main.js": "/asulav.github.io/static/js/main.ddc787eb.js",
-    "static/js/293.1dd3dc71.chunk.js": "/asulav.github.io/static/js/293.1dd3dc71.chunk.js",
+    "main.css": "/asulav.github.io/static/css/main.cfef69d3.css",
+    "main.js": "/asulav.github.io/static/js/main.d59b8d34.js",
+    "static/js/293.60b856b6.chunk.js": "/asulav.github.io/static/js/293.60b856b6.chunk.js",
     "static/js/787.dd4029b4.chunk.js": "/asulav.github.io/static/js/787.dd4029b4.chunk.js",
     "service-worker.js": "/asulav.github.io/service-worker.js",
     "index.html": "/asulav.github.io/index.html",
-    "main.78c4e0cd.css.map": "/asulav.github.io/static/css/main.78c4e0cd.css.map",
-    "main.ddc787eb.js.map": "/asulav.github.io/static/js/main.ddc787eb.js.map",
-    "293.1dd3dc71.chunk.js.map": "/asulav.github.io/static/js/293.1dd3dc71.chunk.js.map",
+    "main.cfef69d3.css.map": "/asulav.github.io/static/css/main.cfef69d3.css.map",
+    "main.d59b8d34.js.map": "/asulav.github.io/static/js/main.d59b8d34.js.map",
+    "293.60b856b6.chunk.js.map": "/asulav.github.io/static/js/293.60b856b6.chunk.js.map",
     "787.dd4029b4.chunk.js.map": "/asulav.github.io/static/js/787.dd4029b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78c4e0cd.css",
-    "static/js/main.ddc787eb.js"
+    "static/css/main.cfef69d3.css",
+    "static/js/main.d59b8d34.js"
   ]
 }
