@@ -3,5 +3,6 @@ export const DarkThemeConfigMap = {
     "bg-p-fontColor": "text-white",
     "cell-p-color": "bg-neutral-800",
     "cell-a-color": "bg-red-400",
-    "border-p-color": "border-black-100"
+    "cell-border-color": "bg-color-500",
+    "border-p-color": "border-yellow-400"
 };

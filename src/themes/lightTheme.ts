@@ -1,7 +1,8 @@
 export const LightThemeConfigMap = {
     "bg-p-color" : "bg-gray-200",
     "bg-p-fontColor": "text-black",
-    "cell-p-color": "bg-neutral-800",
-    "cell-a-color": "bg-red-400",
-    "border-p-color": "border-black-500"
+    "cell-p-color": "bg-white",
+    "cell-a-color": "bg-yellow-400",
+    "cell-border-color": "bg-color-500",
+    "border-p-color": "border-red-400"
 };

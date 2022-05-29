@@ -3,13 +3,12 @@ import { useEffect, useState } from "react";
 import { DELAY_TIME } from "constant";
 
 type CellProps = {
-    initial: boolean;
-    key: number;
     index: number;
 }
 
-const Cell = ({ key, index, initial = false } : CellProps) => {
-    const [ active, setActive ] = useState(initial);
+
+const Cell = ({ index } : CellProps) => {
+    const [ active, setActive ] = useState(false);
 
     useEffect(() => {
         setTimeout(() => {
@@ -19,7 +18,7 @@ const Cell = ({ key, index, initial = false } : CellProps) => {
 
     const { theme } = useTheme();
     return (
-        <div className={`box-border h-5 w-5 mx-1 my-1 rounded-sm border-2 ${active ? theme['cell-a-color'] : theme['cell-p-color']} ${theme['border-p-color']} ${ active ? 'scale-125' : 'scale-100'}`} />
+        <div className={`box-border h-10 w-10 mx-2 my-2 rounded-sm border-4 ${active ? theme['cell-a-color'] : theme['cell-p-color']} ${theme['border-p-color']} ${ active ? 'scale-125' : 'scale-100'}`} />
     );
 }
 

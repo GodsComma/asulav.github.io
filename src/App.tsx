@@ -1,8 +1,8 @@
 import LaunchScreen from "pages/LaunchScreen";
-import StyledComponents from "pages/StyledComponent";
 import React, { lazy } from "react";
 import ThemeProvider, { ThemeTypeProps } from "themes/ThemeProvider";
 import { LOADING_TIME, DEFAULT_THEME } from "constant";
+import ThemedComponents from "pages/StyledComponent";
 
 const HomePage = lazy(() => {
   return Promise.all([
@@ -13,9 +13,9 @@ const HomePage = lazy(() => {
 });
 
 const InitalizeTheme = () : ThemeTypeProps => {
-  const theme = localStorage.getItem('theme') || DEFAULT_THEME;
+  const theme = localStorage.getItem('theme') as ThemeTypeProps || DEFAULT_THEME;
   if (theme) {
-    return DEFAULT_THEME;
+    return theme;
   }
   localStorage.setItem('theme', DEFAULT_THEME);
   return DEFAULT_THEME;
@@ -27,9 +27,9 @@ function App() {
   return (
     <ThemeProvider themeType={InitialTheme}>
             <React.Suspense fallback={<LaunchScreen />}>
-              <StyledComponents>
+              <ThemedComponents>
                 <HomePage />
-              </StyledComponents>
+              </ThemedComponents>
             </React.Suspense>
     </ThemeProvider>
   );
