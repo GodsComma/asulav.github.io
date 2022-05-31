@@ -9,13 +9,13 @@ const LaunchScreen = () => {
     const CELLS = [...Array(NUMBER_OF_CELLS).keys()];
 
     return(
-        <div className={`flex justify-center items-center w-screen h-screen ${theme["bg-p-color"]} ${theme["bg-p-fontColor"]}`} >
+        <div className={`flex justify-center items-center w-screen h-screen ${theme["bg-p-color"]} ${theme["p-fontColor"]}`} >
             <div className="grid grid-row-2 order-first">
                 <TableTemplate>
                     { CELLS.map((number) =><Cell key={number} index={number}/>) }
                 </TableTemplate>
                 <h1 className={`mx-10 my-6 place-content-center text-2xl font-semibold ${theme["bg-p-color"]} animate-bounce`}>
-                    Loading...                
+                    Loading...
                 </h1>
             </div>
         </div>
