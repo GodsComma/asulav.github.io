@@ -1,4 +1,4 @@
-import { Dropdown } from "atoms/Dropdown";
+import Dropdown from "atoms/Dropdown";
 import Toggle from "atoms/Toggle";
 import React, { useContext, useState } from "react";
 import { ThemeContext } from "themes/ThemeProvider";
@@ -22,7 +22,10 @@ const ThemedComponents = ( { children }: ThemedComponentsProps ) => {
         <div className={`${theme["bg-p-color"]} ${theme["p-fontColor"]} w-full h-full `}>
             <div className="w-1/2 h-1/2">
                 <Toggle status={currentTheme} label={toggleLabel} setTheme={setTheme} />
-                <Dropdown />
+                <Dropdown>
+                    {/* <Dropdown.Header> Themes </Dropdown.Header> */}
+                    <Dropdown.Group> Themes </Dropdown.Group>
+                </Dropdown>
             </div>
             { children }
         </div>

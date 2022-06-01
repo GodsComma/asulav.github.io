@@ -7,4 +7,5 @@ export const LightThemeConfigMap = {
     "border-p-color": "border-red-400",
     "button-primary": "bg-red-400",
     "button-p-hover" : "hover:text-white hover:bg-purple-600 hover:border-gray-300",
+    "dropdown-p-active": "active:hover:bg-purple-600"
 };
